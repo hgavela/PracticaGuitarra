@@ -1,3 +1,64 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+$color-blanco: #e8e8e8;
+$color-negro: #2e2e2e;
+
+$colores: (
+  basicos: (
+    blanco: $color-blanco,
+    negro: $color-negro,
+  ),
+  fondo:
+  (
+    base: #5d3e75,
+  ),
+  texto: (
+    base: $color-blanco,
+    parrafo: #b3a1cc,
+  ),
+  links: (
+    base: $color-blanco,
+    violeta: #b3a1cc,
+    yellow: #f2e287,
+  ),
+  botones: (
+    izq: #f2e287,
+    der: #db9678,
+  ),
+  grises: (
+    base: #f5f5f5,
+    gris: #e5e5e5,
+    gris2: #d5d5d5,
+    gris3: #c5c5c5,
+  ),
+);
+
+//TIPOGRAFIA
+$fuente-base: 16px;
+
+$fontSize: (
+    //SEO
+    h1: 3rem,
+    h2: 2rem,
+    h3: 1.5rem,
+    links: 1.5rem,
+    //NO SEO
+    h4: 1rem,
+    parrafo: 1rem,
+    h5: 0.75rem,
+    h6: 0.5rem
+);
+
+$interLineado: 1.5rem;
+
+//Tamaños
+
+$desktop: 1366px;
+
+
+//Multiple backgrounds
+
+
+
